@@ -1,0 +1,17 @@
+created: 20190212144737901
+creator: Mohammad
+modified: 20190214185320267
+modifier: Mohammad
+tags: task
+title: Change Log
+type: text/vnd.tiddlywiki
+
+''Changes''
+
+<$list filter="[tag[change]!sort[title]]">
+
+<$link to=<<currentTiddler>>><$text text=<<currentTiddler>> /></$link>
+
+<$transclude/>
+
+</$list>
